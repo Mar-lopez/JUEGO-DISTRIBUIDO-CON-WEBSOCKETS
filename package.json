@@ -1,0 +1,20 @@
+{
+  "name": "juego-distribuido-websockets.io",
+  "version": "1.0.0",
+  "description": "juego-distribuido-websockets",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "keywords": [
+    "juego-distribuido-websockets",
+    "Socket.IO"
+  ],
+  "author": "Leonardo-Rivas;Mariana-Lopez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  }
+}
